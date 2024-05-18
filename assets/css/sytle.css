@@ -635,14 +635,49 @@ img {
     color: var(--body-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
-
-
-/* Swiper class */
-
-
 /*=============== CONTACT ===============*/
+.contact__container{
+    row-gap: 3rem;
+    padding-bottom: 3rem;
+}
 
+.contact__title{
+    text-align: center;
+    font-size: var(--h3-font-size);
+    margin-bottom: 1.5rem;
+}
+
+.contact__info{
+    display: grid;
+    gap: 1rem;
+}
+
+.contact__card{
+    background-color: var(--container-color);
+    padding: 1rem;
+    border-radius: .75rem;
+    text-align: center;
+}
+
+.contact__card-icon{
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-bottom: .25rem;
+}
+
+.contact__card-title,
+.contact__card-data{
+    font-size: var(--small-font-size);
+}
+
+.contact__card-title{
+    font-weight: var(--font-medium);
+}
+
+.contact__card-data{
+    display: block;
+    margin-bottom: .75rem;
+}
 
 /*=============== FOOTER ===============*/
 
