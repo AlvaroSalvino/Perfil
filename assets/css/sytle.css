@@ -122,10 +122,10 @@ img {
 
 /*========== Variables Light theme ==========*/
 body.light-theme{
-    --first-color: #9900ff;
+    --first-color: #01305c;
     --title-color: hsl(var(--second-hue), 15%, 15%);
-    --text-color: hsl(var(--second-hue), 8%, 35%);
-    --body-color: hsl(var(--second-hue), 100%, 90%);
+    --text-color: #000000;
+    --body-color: #acd8f1;
     --container-color: #FFFFFF;
 }
 
