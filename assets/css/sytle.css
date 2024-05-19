@@ -302,7 +302,7 @@ img {
     padding: .25rem;
     border-radius: .25rem;
     display: flex;
-    font-size: 1rem;
+    font-size: 2rem;
     transition: .4s;
 }
 
@@ -313,7 +313,7 @@ img {
 
 .home__social::after{
     content: '';
-    width: 32px;
+    width: 45px;
     height: 2px;
     background-color: var(--first-color);
     transform: rotate(90deg) translate(16px, 3px);
