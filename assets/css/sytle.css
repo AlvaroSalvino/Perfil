@@ -658,6 +658,7 @@ body.light-theme{
 .contact__container{
     row-gap: 3rem;
     padding-bottom: 3rem;
+    justify-content: center;
 }
 
 .contact__title{
@@ -696,6 +697,10 @@ body.light-theme{
 .contact__card-data{
     display: block;
     margin-bottom: .75rem;
+}
+
+.contact__button {
+    color: var(--first-color);
 }
 
 /*=============== FOOTER ===============*/
@@ -864,6 +869,7 @@ body.light-theme{
     }
 
     .contact__info{
+        display: flex;
         grid-template-columns: 300px;
         justify-content: center;
     }
@@ -871,7 +877,7 @@ body.light-theme{
 
 @media screen and (min-width: 767px) {
     .contact__container{
-        grid-template-columns: repeat(2, max-content);
+        grid-template-columns: repeat(1, max-content);
         justify-content: center;
         column-gap: 3rem;
     }
