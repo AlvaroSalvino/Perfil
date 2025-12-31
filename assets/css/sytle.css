@@ -612,6 +612,7 @@ body.light-theme{
 .work__card{
     background-color: var(--container-color);
     padding: 1rem;
+    align-content: center;
     border-radius: 1rem;
 }
 
