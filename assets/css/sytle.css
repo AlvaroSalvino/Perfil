@@ -815,6 +815,9 @@ body.light-theme{
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
+    .work__container{
+        grid-template-columns: repeat(2, max-content);
+    }
     .nav__menu{
         width: 328px;
         left: 0;
@@ -867,10 +870,6 @@ body.light-theme{
 }
 
 @media screen and (min-width: 767px) {
-    .work__container{
-        grid-template-columns: repeat(3, max-content);
-    }
-
     .contact__container{
         grid-template-columns: repeat(2, max-content);
         justify-content: center;
@@ -985,5 +984,17 @@ body.light-theme{
         font-size: 1.25rem;
         padding: .4rem;
         border-radius: .5rem;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .work__container{
+        grid-template-columns: repeat(3, max-content);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .work__container{
+        grid-template-columns: repeat(4, max-content);
     }
 }
